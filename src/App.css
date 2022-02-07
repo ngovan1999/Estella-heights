@@ -1,0 +1,227 @@
+@import "antd/dist/antd.css";
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #1890ff;
+  --color-title-page: #00000073;
+  --bg-color: rgba(221, 221, 221, 0.308);
+  --des-color: rgba(0, 0, 0, 0.45);
+  --title-color: rgba(0, 0, 0, 0.45);
+}
+
+.color-title {
+  color: var(--title-color);
+}
+.fr {
+  float: right;
+}
+/* CONTAINER */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.container-800 {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+/* TEXT */
+.text-center {
+  text-align: center;
+}
+
+.up-text {
+  text-transform: uppercase;
+}
+/* font size */
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+
+/* margin top */
+.mt-0 {
+  margin-top: 0px;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-28 {
+  margin-top: 28px;
+}
+.mt-32 {
+  margin-top: 32px;
+}
+
+/* margin bottom */
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+/* margin left */
+.ml-0 {
+  margin-left: 0px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+.ml-28 {
+  margin-left: 28px;
+}
+.ml-32 {
+  margin-left: 32px;
+}
+
+/* layout */
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+/* border */
+.border {
+  border: none;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid #ddd;
+}
+.border-top-1 {
+  border-top: 1px solid #ddd;
+}
+/* font-weight */
+
+.fw-100 {
+  font-weight: 100;
+}
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-bold {
+  font-weight: bold;
+}
