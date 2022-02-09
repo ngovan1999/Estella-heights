@@ -172,7 +172,7 @@ function UserManagementPage(props) {
       <Table
         columns={newsColumns}
         rowKey="username"
-        dataSource={dataUserAcount.data}
+        dataSource={dataUserAcount?.data}
         pagination={{
           total: dataUserAcount?.paging?.total,
           onChange: (page) => changePage(page),

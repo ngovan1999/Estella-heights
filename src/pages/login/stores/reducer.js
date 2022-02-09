@@ -10,14 +10,11 @@ export default function authenReducers(state = INIT_STATE_LOGIN, action) {
         break;
       case SAVE_LOGIN_DATA:
         const authority = action.payload;
-        sessionStorage.setItem("token", authority.token);
-        sessionStorage.setItem("roles", JSON.stringify(authority.roles));
-        sessionStorage.setItem("username", authority.username);
-        sessionStorage.setItem(
-          "tokenExpired",
-          authority.tokenExpired.toString()
-        );
-        sessionStorage.setItem("refreshToken", authority.refreshToken);
+        localStorage.setItem("token", authority.token);
+        localStorage.setItem("roles", JSON.stringify(authority.roles));
+        localStorage.setItem("username", authority.username);
+        localStorage.setItem("tokenExpired", authority.tokenExpired.toString());
+        localStorage.setItem("refreshToken", authority.refreshToken);
         draft.profile = authority;
         break;
       default:

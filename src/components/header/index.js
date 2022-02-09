@@ -16,7 +16,7 @@ function HeaderComponent(props) {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
   const handleLogout = () => {
-    sessionStorage.removeItem("token");
+    localStorage.removeItem("token");
     navigate("/login");
   };
   const changeLanguage = (lang) => {
@@ -69,7 +69,7 @@ function HeaderComponent(props) {
               style={{ backgroundColor: "#87d068" }}
               icon={<UserOutlined />}
             />
-            <p className="mb-0 ml-8">{sessionStorage.getItem("username")}</p>
+            <p className="mb-0 ml-8">{localStorage.getItem("username")}</p>
           </Button>
         </Dropdown>
         <Dropdown

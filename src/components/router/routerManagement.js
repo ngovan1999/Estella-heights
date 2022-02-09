@@ -24,13 +24,13 @@ function RouterManagement(props) {
     setCollapsed(!collapsed);
   };
   useEffect(() => {
-    const loggedInUser = sessionStorage.getItem("token");
+    const loggedInUser = localStorage.getItem("token");
     if (!loggedInUser) {
       navigate("/login");
     }
   }, []);
   const onIdle = () => {
-    sessionStorage.removeItem("token");
+    localStorage.removeItem("token");
     window.location.href = "/login";
   };
   return (
